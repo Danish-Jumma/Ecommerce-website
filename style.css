@@ -1,0 +1,138 @@
+
+header{
+    background-color:brown;
+    padding: 10px;
+}
+.contain{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+h3{
+ align-items: center;
+ padding-top: 20px;
+ color:green;
+ font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding-top: 25px;
+}
+li a{
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+li a:hover{
+    background-color:floralwhite;
+    color: black;
+}
+.fa-shopping-cart,.fa-truck{
+  color: aliceblue;
+  font-size: 30px !important;
+  padding-top: 25px;
+  margin-right: 20px;
+}
+.fa-truck:hover{
+    transform: scale(1.5);
+    color: black;
+}
+.fa-shopping-cart:hover{
+    transform: scale(1.5);
+    color: black;
+}
+.carousel{
+   font-size: 30px;
+}
+h4{
+    color:brown;
+    text-align: center;
+}
+h5{
+    color: brown;
+}
+.fa-thumbs-o-up,.fa-headphones{
+    color: brown !important;
+    font-size: 25px !important;
+    padding-right: 70px;
+}
+span{
+    color: green;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    color:yellowgreen;
+}
+.form-control:hover{
+    background-color: brown !important;
+}
+button:hover{
+    background-color: brown !important;
+}
+del,ins{
+    color: brown;
+    padding-right:30px ;
+}
+.btn-primary{
+    background-color: brown !important;
+    border: 2px solid brown !important;
+    border-radius: 13px !important;
+    box-shadow: 3px 4px 5px black;
+}
+.btn-primary:hover{
+    transform: scale(1.2);
+}
+.container{
+    flex-wrap: wrap;
+}
+.card{
+    margin-top: 50px;
+    box-shadow: 2px 3px 4px black;
+}
+.card:hover{
+    transform: scale(1.1);
+    border: 1px solid brown !important;
+   
+}
+footer{
+    background-color: black;
+    margin-top: 30px;
+    padding: 30px;
+}
+h6{
+    color: white;
+    text-align: center;
+}
+.fa-facebook{
+    color: white !important;
+}
+.fa-google{
+    color: white !important;
+}
+.fa-youtube{
+    color: white !important;
+}
+.fa-whatsapp{
+    color: white !important;
+}
+.social{
+    font-size: 30px !important;
+    text-align: center;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+.col img{
+    height: 150px;
+    width: 250px;
+}
+nav .navbar{
+    display: flex;
+}
+.container-fluid{
+    margin-right: 20px;
+}
